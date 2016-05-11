@@ -34,7 +34,7 @@ public class Character {
 		this.name = name;
 		this.x = x;
 		this.y = y;
-		//利用substring && parseInt來做字串轉十六進位的解碼
+		//利用substring && Integer.parseInt來做字串轉十六進位的解碼
 		this.r = Integer.parseInt(colour.substring(3,5), 16);
 		this.g = Integer.parseInt(colour.substring(5,7), 16);
 		this.b = Integer.parseInt(colour.substring(7,9), 16);
